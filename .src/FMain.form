@@ -1,0 +1,92 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,64,63)
+  Font = Font["12"]
+  Text = ("MIKeyGenerator")
+  Icon = Picture["mikeygenerator.png"]
+  Resizable = False
+  { Menu1 Menu
+    Text = ("File")
+    { mnuSave Menu
+      Text = ("Save")
+      Enabled = False
+      Shortcut = "Ctrl+S"
+    }
+    { Menu3 Menu
+    }
+    { mnuClose Menu
+      Text = ("Quit")
+      Shortcut = "Alt+F4"
+    }
+  }
+  { Menu2 Menu
+    Text = ("About")
+    { mnuApoie Menu
+      Text = ("Support MIKeyGenerator")
+    }
+    { Menu5 Menu
+    }
+    { mnuSobre Menu
+      Text = ("About MIKeyGenerator")
+    }
+  }
+  { Label3 Label
+    MoveScaled(1,1,22,4)
+    Font = Font["Bold"]
+    Text = ("Hash Type")
+  }
+  { cboTipoHash ComboBox
+    MoveScaled(1,5,62,4)
+    #Translate = False
+    ReadOnly = True
+    List = ["MD5", "SHA1", "SHA256", "SHA512"]
+    Text = "SHA256"
+  }
+  { Label1 Label
+    MoveScaled(1,10,31,4)
+    Font = Font["Bold"]
+    Text = ("Segment Size")
+  }
+  { txtSegmentos ValueBox
+    MoveScaled(1,14,12,4)
+  }
+  { txtTamanho ValueBox
+    MoveScaled(1,23,12,4)
+  }
+  { Label2 Label
+    MoveScaled(1,19,31,4)
+    Font = Font["Bold"]
+    Text = ("Key Size")
+  }
+  { btnGerar Button
+    MoveScaled(21,29,20,5)
+    Text = ("Generate")
+  }
+  { Label4 Label
+    MoveScaled(1,36,31,4)
+    Font = Font["Bold"]
+    Text = ("Activation Key")
+  }
+  { txtKey TextBox
+    MoveScaled(1,41,50,5)
+    ReadOnly = True
+  }
+  { txtHash TextBox
+    MoveScaled(1,52,50,5)
+    ReadOnly = True
+  }
+  { Label5 Label
+    MoveScaled(1,47,31,4)
+    Font = Font["Bold"]
+    Text = ("Hash")
+  }
+  { btnCopiar1 Button
+    MoveScaled(52,41,11,5)
+    Text = ("Copy")
+  }
+  { btnCopiar2 Button
+    MoveScaled(52,52,11,5)
+    Text = ("Copy")
+  }
+}
