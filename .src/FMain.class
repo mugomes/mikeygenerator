@@ -66,6 +66,19 @@ Public Sub btnCopiar2_Click()
   
 End
 
+Private Function getHash(tipo As String, valor As String) As String 
+  
+  Dim sHash As String 
+  
+  Shell "echo '" & valor & "' | " & Lower(tipo) & "sum" To sHash
+  
+  sHash = RTrim(sHash)
+  sHash = Left(sHash, Len(sHash) - 1)
+  sHash = RTrim(sHash)
+  Return sHash
+  
+End
+
 Public Sub btnGerar_Click()
   
   Dim sKey As String
@@ -88,17 +101,8 @@ Public Sub btnGerar_Click()
   sKey = GerarChave()
   
   txtKey.Text = sKey
-  
-  If cboTipoHash.Text = "MD5" Then 
-    txtHash.Text = Hash.Md5(sKey)
-  Else If cboTipoHash.Text = "SHA1" Then 
-    txtHash.Text = Hash.Sha1(sKey)
-  Else If cboTipoHash.Text = "SHA256" Then 
-    txtHash.Text = Hash.Sha256(sKey)
-  Else
-    txtHash.Text = Hash.Sha512(sKey)
-  Endif
-    
+  txtHash.Text = getHash(cboTipoHash.Text, sKey)
+      
   btnGerar.Enabled = True
   mnuSave.Enabled = True
 End
@@ -127,5 +131,13 @@ Public Sub mnuApoie_Click()
   Dim sTerm As String = ""
   
   Shell "xdg-open \"https://www.mestredainfo.com.br/p/apoie.html\"" To sTerm
+
+End
+
+Public Sub mnuCheckUpdate_Click()
+
+  Dim sTerm As String = ""
+  
+  Shell "xdg-open \"https://www.mestredainfo.com.br/p/mikeygenerator.html\"" To sTerm
 
 End

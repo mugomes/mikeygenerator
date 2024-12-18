@@ -2,11 +2,10 @@
 Title=MIKeyGenerator
 Startup=FMain
 Icon=mikeygenerator.png
-Version=0.0.2
+Version=0.0.4
 Component=gb.image
 Component=gb.gtk3
 Component=gb.form
-Component=gb.hash
 Description="Key generator."
 Authors="Murilo Gomes Julio <contatomestredainfo@gmail.com>"
 TabSize=2
