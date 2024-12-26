@@ -2,82 +2,103 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mikeygenerator 3.18.0\n"
-"POT-Creation-Date: 2024-09-05 22:37 UTC\n"
-"PO-Revision-Date: 2024-09-05 22:37 UTC\n"
+"POT-Creation-Date: 2024-12-26 22:03 UTC\n"
+"PO-Revision-Date: 2024-12-26 22:04 UTC\n"
 "Last-Translator: Murilo Gomes Julio <contatomestredainfo@gmail.com>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: .project:1 FMain.form:29
+#: .project:1 FMain.form:34
 msgid "MIKeyGenerator"
 msgstr "MIKeyGenerator"
 
+# gb-ignore
 #: .project:2
-msgid "Activation key generator."
-msgstr "Activation key generator."
+msgid "Key generator."
+msgstr ""
 
-#: FAbout.form:17 FMain.form:61
+#: FAbout.form:17 FMain.form:67
 msgid "About MIKeyGenerator"
 msgstr "Sobre MIKeyGenerator"
 
-#: FMain.class:107
+#: FMain.class:132
 msgid "Key: &1"
 msgstr "Chave: &1"
 
-#: FMain.class:110
+#: FMain.class:136
 msgid "Save File"
 msgstr "Salvar arquivo"
 
-#: FMain.class:111
+#: FMain.class:137
 msgid "Text File"
 msgstr "Arquivo de Texto"
 
-#: FMain.form:33
+#: FMain.form:39
 msgid "File"
 msgstr "Arquivo"
 
-#: FMain.form:36
+#: FMain.form:42
 msgid "Save"
 msgstr "Salvar"
 
-#: FMain.form:45
+#: FMain.form:51
 msgid "Quit"
 msgstr "Sair"
 
-#: FMain.form:51
+#: FMain.form:57
 msgid "About"
 msgstr "Sobre"
 
-#: FMain.form:54
+#: FMain.form:60
 msgid "Support MIKeyGenerator"
 msgstr "Suporte MIKeyGenerator"
 
-#: FMain.form:68
+#: FMain.form:74
 msgid "Hash Type"
 msgstr "Tipo de Hash"
 
-#: FMain.form:81
+#: FMain.form:87
 msgid "Segment Size"
 msgstr "Tamanho do Segmento"
 
-#: FMain.form:95
+#: FMain.form:101
 msgid "Key Size"
 msgstr "Tamanho da Chave"
 
-#: FMain.form:100
+#: FMain.form:106
 msgid "Generate"
 msgstr "Gerar"
 
-#: FMain.form:106
+#: FMain.form:112
 msgid "Activation Key"
 msgstr "Chave de ativação"
 
-#: FMain.form:122
+#: FMain.form:128
 msgid "Hash"
 msgstr "Hash"
 
-#: FMain.form:127
+#: FMain.form:133
 msgid "Copy"
 msgstr "Copiar"
+
+#: FMain.form:144
+msgid "Select one or more options"
+msgstr "Selecione uma ou mais opções"
+
+#: FMain.form:149
+msgid "Capital Letters"
+msgstr "Letras Maiúsculas"
+
+#: FMain.form:155
+msgid "Lowercase Letters"
+msgstr "Letras Minúsculas"
+
+#: FMain.form:161
+msgid "Numbers"
+msgstr "Números"
+
+#: FMain.form:167
+msgid "Special Characters"
+msgstr "Caracteres Especiais"

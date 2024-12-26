@@ -11,13 +11,32 @@ Private Function GerarChave() As String
   Dim lmin As String = "abcdefghijklmnopqrstuvwxyz"
   Dim lmai As String = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
   Dim num As String = "1234567890"
+  Dim esp As String = "!@#$%*"
   
   Dim retorno As String = ""
   Dim caracteres As String = ""
   
-  caracteres &= lmin
-  caracteres &= lmai
-  caracteres &= num
+  If chkLetrasMinusculas.Value = True Then 
+    caracteres &= lmin
+  Endif 
+  
+  If chkLetrasMaiusculas.Value = True Then 
+    caracteres &= lmai
+  Endif 
+  
+  If chkNumeros.Value = True Then 
+    caracteres &= num
+  Endif 
+  
+  If chkCaracteresEspeciais.Value = True Then 
+    caracteres &= esp
+  Endif
+  
+  If chkLetrasMinusculas.Value = False And chkLetrasMaiusculas.Value = False And chkNumeros.Value = False And chkCaracteresEspeciais.Value = False Then 
+    caracteres &= lmin
+    caracteres &= lmai
+    caracteres &= num
+  Endif
   
   Dim len As Integer = Len(caracteres)
   
@@ -48,10 +67,10 @@ Private Function GerarChave() As String
 End
 
 Public Sub Form_Open()
-
+  
   txtSegmentos.Value = 5
   txtTamanho.Value = 5  
-
+  
 End
 
 Public Sub btnCopiar1_Click()
@@ -102,13 +121,16 @@ Public Sub btnGerar_Click()
   
   txtKey.Text = sKey
   txtHash.Text = getHash(cboTipoHash.Text, sKey)
-      
+  
   btnGerar.Enabled = True
   mnuSave.Enabled = True
+  
 End
 
 Public Sub mnuSave_Click()
+  
   Dim txt As String = Subst(("Key: &1"), txtKey.Text) & gb.NewLine
+  
   txt &= Subst("Hash: &1", txtHash.Text)
   
   Dialog.Title = ("Save File")
@@ -117,27 +139,27 @@ Public Sub mnuSave_Click()
   If Dialog.SaveFile() = False Then 
     File.Save(Dialog.Path, txt)
   Endif
-
+  
 End
 
 Public Sub mnuClose_Click()
-
+  
   Quit
-
+  
 End
 
 Public Sub mnuApoie_Click()
-
+  
   Dim sTerm As String = ""
   
   Shell "xdg-open \"https://www.mestredainfo.com.br/p/apoie.html\"" To sTerm
-
+  
 End
 
 Public Sub mnuCheckUpdate_Click()
-
+  
   Dim sTerm As String = ""
   
   Shell "xdg-open \"https://www.mestredainfo.com.br/p/mikeygenerator.html\"" To sTerm
-
+  
 End
