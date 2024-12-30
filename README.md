@@ -4,7 +4,7 @@ Key Generator.
 
 ## Information
 
-- [Page MIKeyGenerator](https://www.mestredainfo.com.br/p/mikeygenerator.html)
+- [Page MIKeyGenerator](https://www.mestredainfo.com.br/2024/12/mikeygenerator.html)
 
 ## License
 

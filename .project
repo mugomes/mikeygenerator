@@ -2,7 +2,7 @@
 Title=MIKeyGenerator
 Startup=FMain
 Icon=mikeygenerator.png
-Version=0.0.5
+Version=1.0.0
 Component=gb.image
 Component=gb.gtk3
 Component=gb.form
