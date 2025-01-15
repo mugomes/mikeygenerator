@@ -2,11 +2,11 @@
 Title=MIKeyGenerator
 Startup=FMain
 Icon=mikeygenerator.png
-Version=1.0.0
+Version=1.0.4
 Component=gb.image
 Component=gb.gtk3
 Component=gb.form
-Description="Key generator."
+Description="Key generator.\nThe MIKeyGenerator is under license GPL-2.0-only"
 Authors="Murilo Gomes Julio <contatomestredainfo@gmail.com>"
 TabSize=2
 Translate=1
