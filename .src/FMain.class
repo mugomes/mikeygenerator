@@ -48,17 +48,17 @@ Private Function GerarChave() As String
   
   Dim rand As Integer
   
-  Do While a <= tamanho
+  Do While a <= segmento
     n = 0
-    Do While n <= segmento
+    Do While n <= tamanho
       rand = Rand(1, len)
       retorno &= caracteres[rand - 1]
       Inc n
-      If n = segmento Then Break
+      If n = tamanho Then Break
     Loop
     retorno &= "-"
     Inc a
-    If a = tamanho Then Break
+    If a = segmento Then Break
   Loop
   
   retorno = Left(retorno, Len(retorno) - 1)
@@ -160,6 +160,6 @@ Public Sub mnuCheckUpdate_Click()
   
   Dim sTerm As String = ""
   
-  Shell "xdg-open \"https://www.mestredainfo.com.br/2024/12/mikeygenerator.html\"" To sTerm
+  Shell "xdg-open \"https://www.mestredainfo.com.br/p/softwares.html\"" To sTerm
   
 End
