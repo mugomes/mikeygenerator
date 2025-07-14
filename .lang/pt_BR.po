@@ -1,9 +1,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: mikeygenerator 3.18.0\n"
-"PO-Revision-Date: 2024-12-30 20:01 UTC\n"
-"Last-Translator: Mestre da Info <contatomestredainfo@gmail.com>\n"
+"Project-Id-Version: mikeygenerator 3.19.0\n"
+"PO-Revision-Date: 2025-07-14 14:10 UTC\n"
+"Last-Translator: Murilo Gomes <mugomesoficial@gmail.com>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -13,7 +13,7 @@ msgstr ""
 msgid "About"
 msgstr "Sobre"
 
-#: FAbout.form:18 FMain.form:76
+#: FMain.form:76
 msgid "About MIKeyGenerator"
 msgstr "Sobre MIKeyGenerator"
 
@@ -49,13 +49,13 @@ msgstr "Hash"
 msgid "Hash Type"
 msgstr "Tipo de Hash"
 
-#: FMain.class:132
+#: FMain.class:131
 msgid "Key: &1"
 msgstr "Chave: &1"
 
 # gb-ignore
 #: .project:2
-msgid "Key generator."
+msgid "Key generator.\nThe MIKeyGenerator is under license GPL-2.0-only"
 msgstr ""
 
 #: FMain.form:110
@@ -66,9 +66,14 @@ msgstr "Tamanho da Chave"
 msgid "Lowercase Letters"
 msgstr "Letras Minúsculas"
 
-#: .project:1 FMain.form:36
+#: .project:1
 msgid "MIKeyGenerator"
 msgstr "MIKeyGenerator"
+
+# gb-ignore
+#: FMain.form:36
+msgid "MiKeyGenerator"
+msgstr ""
 
 #: FMain.form:170
 msgid "Numbers"
@@ -82,7 +87,7 @@ msgstr "Sair"
 msgid "Save"
 msgstr "Salvar"
 
-#: FMain.class:136
+#: FMain.class:135
 msgid "Save File"
 msgstr "Salvar arquivo"
 
@@ -99,14 +104,14 @@ msgid "Special Characters"
 msgstr "Caracteres Especiais"
 
 #: FMain.form:69
-msgid "Support MIKeyGenerator"
-msgstr "Suporte MIKeyGenerator"
+msgid "Subscribers"
+msgstr "Assinantes"
 
-#: FMain.class:137
+#: FMain.class:136
 msgid "Text File"
 msgstr "Arquivo de Texto"
 
-#: FAbout.class:18
+#: FAbout.class:15
 msgid "Version:"
 msgstr "Versão:"
 

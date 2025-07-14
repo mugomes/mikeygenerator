@@ -3,7 +3,7 @@
 { Form Form
   MoveScaled(0,0,64,84)
   Font = Font["12"]
-  Text = ("MIKeyGenerator")
+  Text = ("MiKeyGenerator")
   Icon = Picture["mikeygenerator.png"]
   Resizable = False
   { Menu1 Menu
@@ -28,7 +28,7 @@
     { Menu4 Menu
     }
     { mnuApoie Menu
-      Text = ("Support MIKeyGenerator")
+      Text = ("Subscribers")
     }
     { Menu5 Menu
     }

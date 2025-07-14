@@ -3,8 +3,7 @@
 ' Copyright (C) 2025 Murilo Gomes Julio
 ' SPDX-License-Identifier: GPL-2.0-only
 
-' Mestre da Info
-' Site: https://www.mestredainfo.com.br
+' Site: https://www.mugomes.com.br
 
 Private Function GerarChave() As String
   
@@ -150,16 +149,18 @@ End
 
 Public Sub mnuApoie_Click()
   
-  Dim sTerm As String = ""
-  
-  Shell "xdg-open \"https://www.mestredainfo.com.br/p/apoie.html\"" To sTerm
+  Shell "xdg-open \"https://www.mugomes.com.br/p/assinantes.html\""
   
 End
 
 Public Sub mnuCheckUpdate_Click()
+
+  Shell "xdg-open \"https://www.mugomes.com.br/2025/07/mikeygenerator.html\""
   
-  Dim sTerm As String = ""
-  
-  Shell "xdg-open \"https://www.mestredainfo.com.br/p/mikeygenerator.html\"" To sTerm
-  
+End
+
+Public Sub mnuSobre_Click()
+
+  FAbout.Show()
+
 End
