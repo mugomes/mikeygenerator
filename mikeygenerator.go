@@ -135,7 +135,7 @@ func main() {
 	window.CenterOnScreen()
 	window.Resize(fyne.NewSize(500, 479))
 
-		var txtChave *widget.Entry
+	var txtChave *widget.Entry
 	var txtHash *widget.Entry
 
 	mnuEditar := fyne.NewMenu("Editar",
@@ -160,8 +160,8 @@ func main() {
 		}),
 	)
 
-	window.SetMainMenu(fyne.NewMainMenu(mnuEditar,mnuAbout))
-	
+	window.SetMainMenu(fyne.NewMainMenu(mnuEditar, mnuAbout))
+
 	chkOptions := widget.NewCheckGroup([]string{
 		"Letras Minúsculas",
 		"Números",
