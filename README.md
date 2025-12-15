@@ -4,7 +4,7 @@ Key Generator.
 
 ## Information
 
-- [Page MiKeyGenerator](https://www.mugomes.com.br/2025/07/mikeygenerator.html)
+- [Page MiKeyGenerator](https://www.mugomes.com.br/p/mikeygenerator.html)
 
 ## License
 
