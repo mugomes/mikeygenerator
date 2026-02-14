@@ -1,11 +1,11 @@
 module mugomes/mikeygenerator
 
-go 1.24.6
+go 1.25.5
 
 require (
 	fyne.io/fyne/v2 v2.7.1
-	github.com/mugomes/mgnumericentry v1.0.2
-	github.com/mugomes/mgsmartflow v1.0.1
+	github.com/mugomes/mgnumericentry v1.0.3
+	github.com/mugomes/mgsmartflow v1.1.0
 )
 
 require (

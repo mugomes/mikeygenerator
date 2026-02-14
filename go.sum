@@ -45,10 +45,10 @@ github.com/jsummers/gobmp v0.0.0-20230614200233-a9de23ed2e25 h1:YLvr1eE6cdCqjOe9
 github.com/jsummers/gobmp v0.0.0-20230614200233-a9de23ed2e25/go.mod h1:kLgvv7o6UM+0QSf0QjAse3wReFDsb9qbZJdfexWlrQw=
 github.com/kr/text v0.2.0 h1:5Nx0Ya0ZqY2ygV366QzturHI13Jq95ApcVaJBhpS+AY=
 github.com/kr/text v0.2.0/go.mod h1:eLer722TekiGuMkidMxC/pM04lWEeraHUUmBw8l2grE=
-github.com/mugomes/mgnumericentry v1.0.2 h1:WjvVgCKoeIf2ie2/M0SInusEQwW039gSrluSUTkgn5Y=
-github.com/mugomes/mgnumericentry v1.0.2/go.mod h1:5fdPY2FPtqk4Vrd9Vsjpnt5Wf/oFJtyiagfEtdIB36I=
-github.com/mugomes/mgsmartflow v1.0.1 h1:En+j12zNNzKX56dJRhkey5tC1c9YXvXQx7jrD8FhChc=
-github.com/mugomes/mgsmartflow v1.0.1/go.mod h1:FWQAp+hJ7qFLAxGDThMiOjCvAMJk8N9VP/qNpHqT3wc=
+github.com/mugomes/mgnumericentry v1.0.3 h1:XSobsZ6+IHbGwt/+8wK282M6PhDsmUgTDq44jgq0L/0=
+github.com/mugomes/mgnumericentry v1.0.3/go.mod h1:vohhHtG8BMGq+779QfahLwWDjLmGcYYjjJAKy7D2OGw=
+github.com/mugomes/mgsmartflow v1.1.0 h1:IwnEzc5QTeW513dSr6bRfgYXmKDz6YGLPYL6sGHkrco=
+github.com/mugomes/mgsmartflow v1.1.0/go.mod h1:pu8ZjBciLKS5FIO+a1RU92CjHeINofFcldD9Cqn1gg4=
 github.com/nfnt/resize v0.0.0-20180221191011-83c6a9932646 h1:zYyBkD/k9seD2A7fsi6Oo2LfFZAehjjQMERAvZLEDnQ=
 github.com/nfnt/resize v0.0.0-20180221191011-83c6a9932646/go.mod h1:jpp1/29i3P1S/RLdc7JQKbRpFeM1dOBd8T9ki5s+AY8=
 github.com/nicksnyder/go-i18n/v2 v2.5.1 h1:IxtPxYsR9Gp60cGXjfuR/llTqV8aYMsC472zD0D1vHk=
