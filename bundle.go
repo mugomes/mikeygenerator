@@ -9,8 +9,8 @@ import (
 )
 
 //go:embed icon/mikeygenerator.png
-var resourceMiKeyGeneratorPngData []byte
-var resourceMiKeyGeneratorPng = &fyne.StaticResource{
+var resourceAppIconPngData []byte
+var resourceAppIconPng = &fyne.StaticResource{
 	StaticName:    "icon/mikeygenerator.png",
-	StaticContent: resourceMiKeyGeneratorPngData,
+	StaticContent: resourceAppIconPngData,
 }
