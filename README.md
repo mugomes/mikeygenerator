@@ -1,5 +1,8 @@
 # MiKeyGenerator
 
+> [!NOTE]
+> This repository has been migrated to Codeberg, please see: https://codeberg.org/bluice/mikeygenerator
+
 Key Generator.
 
 ## Information
