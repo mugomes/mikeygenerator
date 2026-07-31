@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Ambiente virtual
+venv/
+
+# Artefatos do PyInstaller
+build/
+dist/
+*.spec
+
+# Editores / SO
+.vscode/
+.idea/
+.DS_Store
+
+# AGENTS
+AGENTS.md

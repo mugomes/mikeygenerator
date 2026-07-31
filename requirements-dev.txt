@@ -1,0 +1,2 @@
+# Dependências de desenvolvimento (build com PyInstaller)
+pyinstaller>=6.0
